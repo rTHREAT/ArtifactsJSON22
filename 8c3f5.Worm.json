@@ -6,7 +6,7 @@
                 "layout": "flat", 
                 "showName": true
         }, 
-        "name": "eaba9.Trojan.Obf", 
+        "name": "8c3f5.Worm", 
         "versions": {
                 "attack": "10", 
                 "navigator": "4.5.5", 
@@ -85,47 +85,7 @@
                 }, 
                 {
                         "comment": "", 
-                        "techniqueID": "T1569", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1569.002", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
                         "techniqueID": "T1543", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1134", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1134.001", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1055", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
@@ -141,38 +101,6 @@
                 }, 
                 {
                         "comment": "", 
-                        "techniqueID": "T1497", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1036", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1056", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1056.004", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
                         "techniqueID": "T1082", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
@@ -181,7 +109,7 @@
                 }, 
                 {
                         "comment": "", 
-                        "techniqueID": "T1083", 
+                        "techniqueID": "T1012", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
@@ -205,39 +133,7 @@
                 }, 
                 {
                         "comment": "", 
-                        "techniqueID": "T1124", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1033", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1012", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1057", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1105", 
+                        "techniqueID": "T1083", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
@@ -246,14 +142,6 @@
                 {
                         "comment": "", 
                         "techniqueID": "T1573", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "T1486", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
