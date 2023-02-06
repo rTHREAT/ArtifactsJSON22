@@ -31,7 +31,87 @@
         "hideDisabled": false,
         "techniques": [
                 {
-                        "techniqueID": "T1204",
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nA computer virus is a type of computer program that",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "when run",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "replicates itself by modifying other computer programs and inserting its own code. If this replication is successful",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "the affected areas are said to be \"infected\" with a computer virus.\n\nComputer viruses generally require a host program. The virus writes its own code in the host program. When the program is run",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "the written virus program runs first",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "causing infection and damage. A computer worm does not need a host program",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "as it is a separate program or a piece of code. Therefore",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "it is not restricted by the host program",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "but can run independently and actively perform attacks.\n\nComputer viruses cause economic damage worth billions of dollars each year.\n\nObfuscation: Mutation and Virtualization.\n\nMALICIOUS:\n\nSample was identified as malicious by a trusted Antivirus engine\nThe analysis extracted a file that was identified as malicious\nDrops executable files to the Windows system directory\nDrops executable files to the application program directory (%ProgramData%)\nReads mail related files\n\nSUSPICIOUS:\n\nPossibly checks for the presence of a forensics/monitoring tool\nPossibly tries to evade analysis by sleeping many times\nFound a potential E-Mail address in binary/memory\nDrops executable files\nWrites a PE file header to disc\nFound potential IP address in binary/memory\nAccesses potentially sensitive information from local browsers\nMarks file for deletion\nHooks API calls\nCRC value set in PE header does not match actual value\nInstalls hooks/patches the running process\n\nINFO: \n\nContains ability to register a top-level exception handler (API string)\nCalls an API typically used to get product type\nCalls an API typically used to get system version information\nContains ability to read software policies\nContains ability to retreive system language (API string)\nContains ability to retrieve open application windows (API string)\nContains ability to retrieve the contents of the STARTUPINFO structure (API string)\nContains PDB pathways\nContains ability to modify processes thread functionality (API string)\nContains registry location strings\nFound API related strings\nLoads the visual basic runtime environment\nPE file contains data exceeding the last FAT sector (overlay)\nPE file contains executable sections\nPE file contains writable sections\nPE file entrypoint instructions\nTouches files in program files directory\nTries to access non-existent files\nFound potential URL in binary/memory\nMaking HTTPS connections using secure TLS/SSL version\nCalls an API possibly used to take screenshots\nCalls an API's typically used for searching a directory for a files\nContains ability to determine disk drive type (API string)\nContains ability to enumerate files on disk (API string)\nContains ability to retrieve the fully qualified path of module (API string)\nContains ability to use security policy setting (API string)\nPossibly uses a Windows Server utility\nReads information about supported languages\n\n\n\n\n\n\n\n\nhttps://www.hybrid-analysis.com/sample/31d3a8ef719983b053ba8e0983e8fc337d977a3e2df7099aae495580239527d1/63d753c309716c3b2a5f74b5\n\n2023-01-28\n2022-12-01\n\n\n\nZ:\\Known\\Virus\\31d3a.Virus.exe.rthreat\nZ:\\Ofuscados\\Virus\\.Obf.exe.rthreat\n\nZ:\\Encriptados\\Known\\Virus\\.F.exe.rthreat\nZ:\\Encriptados\\Ofuscados\\Virus\\.Obf.F.exe.rthreat\n\nT1204",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -271,7 +351,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1573",
+                        "techniqueID": "T1573\n\n\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nCollection\nCommand and Control",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
